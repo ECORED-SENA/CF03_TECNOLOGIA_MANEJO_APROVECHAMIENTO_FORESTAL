@@ -23,67 +23,39 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué procedimiento permite determinar pérdidas o ganancias de calidad ambiental durante el monitoreo?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Evaluar los resultados mediante la calidad paisajística de un área elegida.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Comparar los datos del monitoreo con las condiciones ambientales iniciales.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Organizar los datos obtenidos según las actividades previstas del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
+              texto:
+                'Clasificar los datos obtenidos por el origen de cada fuente de información.',
               esCorrecta: false,
             },
           ],
@@ -91,29 +63,69 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          id: 2,
+          texto:
+            '¿Cuál de las siguientes situaciones corresponde a una perturbación crónica?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Un incendio por rayos que transforma el ecosistema en un periodo breve.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Un huracán que altera una cobertura vegetal durante un intervalo breve.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Un deslizamiento que remueve el suelo del ecosistema en un breve lapso.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El sobrepastoreo constante que deteriora progresivamente el ecosistema.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué característica permite identificar la fragmentación de hábitats?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'División del hábitat en parches más pequeños y con mayor aislamiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Disminución de vegetación que reduce la protección natural del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Predominio de especies exóticas que desplazan a las especies locales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Pérdida de suelo superficial por la acción de la lluvia y del viento.',
               esCorrecta: false,
             },
           ],
@@ -123,28 +135,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué determina la demanda bioquímica de oxígeno durante cinco días (DBO₅)?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'La materia susceptible de oxidación por medio de una reacción química.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Las partículas sólidas que quedan retenidas en la filtración del agua.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'El oxígeno consumido por microorganismos al degradar materia orgánica.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Las sales disueltas que se encuentran presentes en la muestra de agua.',
               esCorrecta: false,
             },
           ],
@@ -153,28 +169,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            'Un equipo determina la conductividad eléctrica de una muestra de agua. ¿Qué propiedad está midiendo?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'La capacidad de conducir corriente eléctrica mediante iones disueltos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La concentración total de sales presentes en una solución determinada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El oxígeno que consumen los microorganismos existentes en una muestra.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La cantidad de partículas retenidas al filtrarse esta muestra de agua.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +205,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Con qué condición del agua se asocia generalmente una mayor representación de los grupos incluidos en el índice EPT?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Escasa oxigenación y muy alta acumulación de materia orgánica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Muy alta salinidad y predominio de contaminantes industriales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Buena oxigenación y bajos niveles de contaminación en el agua.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Alta turbidez y presencia de sólidos suspendidos en las aguas.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +240,33 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es la finalidad de la cartografía multitemporal en el análisis del paisaje?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Clasificar una imagen reciente para establecer las categorías de vegetación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Registrar un recorrido de campo para localizar todos los puntos de muestreo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Representar una medición de agua para establecer su distribución geográfica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Comparar imágenes de distintas fechas para identificar cambios de cobertura.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -246,28 +275,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Qué indica un resultado negativo en la tasa anual de cambio forestal?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Incremento de la superficie forestal durante el periodo evaluado.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Reducción de la superficie forestal durante el periodo analizado.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Permanencia de la cobertura forestal durante el periodo evaluado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Recuperación de superficie forestal durante el periodo analizado.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +310,32 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Después del registro directo en campo, ¿qué procedimiento permite mejorar la calidad de los datos antes de almacenarlos?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Pasar los datos al informe sin revisar los registros del terreno.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Asignar permisos de consulta sin comprobar los datos recopilados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Depurar los registros y aplicar controles de calidad a los datos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Presentar los resultados antes de ordenar los registros de campo.',
               esCorrecta: false,
             },
           ],
@@ -307,29 +344,32 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué relación se establece mediante la matriz de Leopold?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Acciones del proyecto con factores ambientales susceptibles de afectación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Periodos de captura satelital con tasas de cambio de la cobertura vegetal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Familias de macroinvertebrados con puntajes de tolerancia a contaminantes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Categorías de infiltración con límites máximos permisibles de vertimiento.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +379,32 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué variables se relacionan para analizar la vulnerabilidad ecosistémica?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Exposición, conectividad y capacidad productiva del ecosistema.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Exposición, sensibilidad y capacidad adaptativa del ecosistema.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Sensibilidad, salinidad y presencia de especies del ecosistema.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Conectividad, infiltración y cobertura forestal del ecosistema.',
               esCorrecta: false,
             },
           ],
@@ -370,29 +414,33 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'En el Plan de Manejo Ambiental, ¿qué finalidad cumple el diseño de rutas alternativas para evitar áreas ambientalmente sensibles?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Mitigar la magnitud de impactos ambientales no evitables en el área.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Corregir todas las condiciones ambientales ya alteradas en esa área.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Compensar esos impactos ambientales residuales generados en el área.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Prevenir la generación de impactos ambientales negativos en el área.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -401,29 +449,33 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Por qué el humedecimiento de vías para disminuir el material particulado es una medida de mitigación?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Evita que se produzca cualquier impacto en los recursos del territorio.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Recupera las condiciones ecológicas que ya fueron alteradas en el área.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Compensa los impactos residuales en áreas similares a las intervenidas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Reduce la magnitud de un impacto que no puede evitarse en su totalidad.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -432,28 +484,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es la función de los Planes de Ordenación y Manejo de Cuencas Hidrográficas (POMCA)?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Organizar las versiones de los informes técnicos producidos en la cuenca.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Planificar el uso coordinado de los recursos naturales de toda la cuenca.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Establecer los puntajes de tolerancia de familias presentes en la cuenca.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Calcular las emisiones de material particulado en las vías de una cuenca.',
               esCorrecta: false,
             },
           ],
@@ -462,29 +518,206 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué actuación corresponde a la restauración pasiva?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Sembrar especies nativas a fin de recuperar espacios sin bancos de semillas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Estabilizar directamente los suelos de ese ecosistema severamente degradado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Cercar un área para excluir el pastoreo y favorecer la regeneración natural.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Recuperar funciones hídricas sin restituir la composición original del área.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué propósito distingue a la rehabilitación ecológica?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Recuperar funciones esenciales sin restituir toda la composición original del área.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Eliminar presiones para que la regeneración restablezca naturalmente el ecosistema.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Sembrar especies nativas a fin de recuperar ecosistemas que perdieron sus semillas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Resarcir impactos residuales por medio de conservación en ecosistemas equivalentes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué finalidad tiene incorporar plantas con flores o productoras de frutos en los corredores biológicos?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Cuantificar las partículas suspendidas para evaluar la contaminación de las aguas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Favorecer a polinizadores y dispersores para fortalecer la conectividad funcional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar límites de vertimiento a través de la clasificación de la infiltración.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Asignar los puntajes de tolerancia a las familias de macroinvertebrados acuáticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué actuación corresponde al diálogo de saberes en la gestión ambiental del territorio?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Transmitir disposiciones técnicas por medio de un intercambio de carácter unilateral.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Difundir servicios institucionales sin pactar decisiones con las comunidades rurales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Presentar resultados técnicos para que las comunidades adopten decisiones ya tomadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Integrar en condiciones de equidad los conocimientos técnicos, locales y ancestrales.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué función cumplen los Proyectos Ciudadanos de Educación Ambiental (PROCEDA)?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Promover iniciativas comunitarias de desarrollo sostenible en barrios y zonas rurales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Articular investigación, docencia y proyección social en instituciones universitarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Coordinar políticas y estrategias ambientales usando los comités interinstitucionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Integrar proyectos ambientales escolares en los procesos de formación de los colegios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué acción permite evaluar el resultado de las estrategias de educación ambiental dentro del mejoramiento continuo?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Medir únicamente el número de informes producidos durante la ejecución de los proyectos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Contabilizar únicamente los recursos recibidos para financiar las actividades previstas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Aplicar indicadores periódicos sobre impacto social, participación y cambios de hábitos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Registrar únicamente los contenidos publicados en medios de comunicación sobre ambiente.',
               esCorrecta: false,
             },
           ],
