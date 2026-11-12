@@ -54,7 +54,7 @@
                 .row(titulo="Teledetección y sistemas de información geográfica (SIG)").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 La teledetección permite obtener información territorial mediante imágenes satelitales de programas como Landsat y Sentinel, así como fotografías aéreas capturadas con drones. Estas fuentes se procesan mediante sistemas de información geográfica (SIG) para clasificar coberturas vegetales, identificar patrones espaciales y evaluar cambios históricos en el paisaje.
                 .row(titulo="Trabajo de campo").ajuste-cajaAcordion.ajuste-vineta
-                  p.mb-3 Comprende la recolección de datos in situ, la validación de unidades del paisaje y los muestreos de biodiversidad para contrastar los resultados geoespaciales con las condiciones del territorio. Las prácticas de campo y laboratorio complementan la caracterización de las propiedades del suelo (Gómez Giraldo, 2013).
+                  p.mb-3 Comprende la recolección de datos <i>in situ</i>, la validación de unidades del paisaje y los muestreos de biodiversidad para contrastar los resultados geoespaciales con las condiciones del territorio. Las prácticas de campo y laboratorio complementan la caracterización de las propiedades del suelo (Gómez Giraldo, 2013).
                 .row(titulo="Inventarios visuales").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Consisten en la aplicación de matrices de calidad visual para caracterizar las condiciones estéticas del paisaje. Incluyen métodos directos o cualitativos, basados en la valoración de sus características visuales, e indirectos o cuantitativos, que emplean criterios y parámetros para establecer su calidad paisajística.
           .row.justify-content-center.align-items-center.mb-5
@@ -388,7 +388,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img17.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Contaminación edáfica (suelo)
       p La contaminación edáfica comprende la acumulación de sustancias que alteran la fertilidad y los microorganismos del suelo. Su monitoreo permite identificar metales pesados, hidrocarburos, residuos de plaguicidas y condiciones de salinidad que afectan la calidad ambiental y la productividad agroforestal.
-      p.mb-5Los principales factores de contaminación del suelo incluyen:
+      p.mb-5 Los principales factores de contaminación del suelo incluyen:
       .bg-slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
